@@ -1,0 +1,236 @@
+{
+  "img": [
+    {
+      "title": "sz01",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/941001089287847986/unknown.png",
+      "date": "2022/02/10"
+    },
+    {
+      "title": "sz02",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/954775947922509824/unknown.png",
+      "date": "2022/03/20"
+    },
+    {
+      "title": "um01",
+      "author": "梅平桜成",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/958653170710609940/6208f0b0a078ee11.png",
+      "date": "2022/03/30"
+    },
+    {
+      "title": "um02",
+      "author": "梅平桜成",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/965984959011647568/unknown.png",
+      "date": "2022/04/19"
+    },
+    {
+      "title": "um03",
+      "author": "梅平桜成",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/975760289586892810/unknown.png",
+      "date": "2022/05/16"
+    },
+    {
+      "title": "um04",
+      "author": "梅平桜成",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/977958637320413345/unknown.png",
+      "date": "2022/05/23"
+    },
+    {
+      "title": "mr01",
+      "author": "ミラ",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/981552774934298674/unknown.png",
+      "date": "2022/06/01"
+    },
+    {
+      "title": "sz03",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/983746610792116324/unknown.png",
+      "date": "2022/06/07"
+    },
+    {
+      "title": "sz04",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/984856034160029736/unknown.png",
+      "date": "2022/06/11"
+    },
+    {
+      "title": "oy01",
+      "author": "おゆ",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/988095848787369984/unknown.png",
+      "date": "2022/06/20"
+    },
+    {
+      "title": "bx01",
+      "author": "ボクラガソン",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/988095948297224282/unknown.png",
+      "date": "2022/06/20"
+    },
+    {
+      "title": "mk01",
+      "author": "むきむきドリルまさのり",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/988096569008087060/unknown.png",
+      "date": "2022/06/20"
+    },
+    {
+      "title": "jm01",
+      "author": "事務砂Ⅱ",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/992051668709544088/unknown.png",
+      "date": "2022/06/30"
+    },
+    {
+      "title": "sz05",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/992051690255683685/unknown.png",
+      "date": "2022/06/30"
+    },
+    {
+      "title": "sz06",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/992422874352734388/unknown.png",
+      "date": "2022/07/01"
+    },
+    {
+      "title": "sz07",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/992766524236505198/unknown.png",
+      "date": "2022/07/02"
+    },
+    {
+      "title": "sz08",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/992808644674588752/unknown.png",
+      "date": "2022/07/03"
+    },
+    {
+      "title": "um05",
+      "author": "梅平桜成",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/993906436428013588/3e7eb7ef-453b-4ffa-90a7-7ead0536c158.png",
+      "date": "2022/07/06"
+    },
+    {
+      "title": "sz09",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/995720617099792404/unknown.png",
+      "date": "2022/07/11"
+    },
+    {
+      "title": "sz13",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1009105036493733888/unknown.png",
+      "date": "2022/08/16"
+    },
+    {
+      "title": "sz14",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1010934816339939429/unknown.png",
+      "date": "2022/08/22"
+    },
+    {
+      "title": "tm01",
+      "author": "TomS",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1010935344008548352/unknown.png",
+      "date": "2022/08/22"
+    },
+    {
+      "title": "rm01",
+      "author": "ルミエール",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1016368239179214928/unknown.png",
+      "date": "2022/09/06"
+    },
+    {
+      "title": "sz16",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1019273542073864323/-_2022-09-14T004700.424.png",
+      "date": "2022/09/14"
+    },
+    {
+      "title": "sz17",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1019594415951593562/unknown.png",
+      "date": "2022/09/14"
+    },
+    {
+      "title": "tm02",
+      "author": "TomS",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1019940467598696489/unknown.png",
+      "date": "2022/09/15"
+    },
+    {
+      "title": "tm03",
+      "author": "TomS",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1019959112517296149/unknown.png",
+      "date": "2022/09/15"
+    },
+    {
+      "title": "sz19",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1019959227885817957/unknown.png",
+      "date": "2022/09/15"
+    },
+    {
+      "title": "mt01",
+      "author": "みたらし",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1022466468845207572/unknown.png",
+      "date": "2022/09/22"
+    },
+    {
+      "title": "jm02",
+      "author": "事務砂Ⅱ",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1024732630043865220/unknown.png",
+      "date": "2022/09/29"
+    },
+    {
+      "title": "sz20",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1024734492633596064/unknown.png",
+      "date": "2022/09/29"
+    },
+    {
+      "title": "sz20",
+      "author": "志津子",
+      "url": "https://cdn.discordapp.com/attachments/939901690864353362/1027917194073473094/unknown.png",
+      "date": "2022/10/07"
+    }
+  ],
+  "slides": [
+    "https://cdn.discordapp.com/attachments/939901690864353362/1004412424184664074/unknown.png",
+    "https://cdn.discordapp.com/attachments/939901690864353362/981550525839454218/41.png",
+    "https://cdn.discordapp.com/attachments/939901690864353362/1010934780591882340/manipi-.png",
+    "https://cdn.discordapp.com/attachments/939901690864353362/950405120066191420/62.png",
+    "https://cdn.discordapp.com/attachments/939901690864353362/973190426225934366/unknown.png",
+    "https://cdn.discordapp.com/attachments/939901690864353362/952890355446079538/JU3hAwAAAABJRU5ErkJggg.png"
+  ],
+  "authors": [
+    "志津子",
+    "梅平桜成",
+    "TomS",
+    "事務砂Ⅱ",
+    "おゆ",
+    "ボクラガソン",
+    "みたらし",
+    "ルミエール",
+    "ミラ",
+    "むきむきドリルまさのり"
+  ],
+  "footer": [
+    {
+      "title": "マニのコミュニティ",
+      "url": "https://com.nicovideo.jp/community/co4046524",
+      "icon": "./icon/ni.png",
+      "alt": "ニコニコ動画"
+    },
+    {
+      "title": "マニ太郎チャンネル",
+      "url": "https://www.youtube.com/channel/UClq7loA8lHTwxJ8KFAvnSoA",
+      "icon": "./icon/yt.png",
+      "alt": "YouTube"
+    },
+    {
+      "title": "ニコニコ大百科",
+      "url": "https://dic.nicovideo.jp/l/%E3%83%9E%E3%83%8B%E5%A4%AA%E9%83%8E",
+      "icon": "./icon/hy.png",
+      "alt": "ニコニコ大百科"
+    }
+  ]
+}
