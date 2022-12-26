@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# お題でお絵かき づほギャラリー
+- Reactで作ったよ
+- プロトタイプはJSだったけどTSに移行したよ
+- sassを使っていたけどReach UIを使ってみたよ
+- Material UIも候補にあったけどカスタマイズにコストがかかると判断したよ
+- 基本設計, DB設計, フロントエンド実装は僕、バックエンドはネキに担当してもらったよ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 基本設計
+### ページ一覧
+  - /      : gallery本体
+  - /admin : 管理画面
 
-In the project directory, you can run:
+### 機能
+- 共通
+  - ページにアクセスした際、GET reqを送信
+  - resを処理して表示する
 
-### `npm start`
+- /admin
+  - 表示画像選択機能
+    - 一覧の中から画像がクリックされた際、POST reqでIDを送信
+    - 同期処理で画面停止
+    - resで画面更新
+  - ログイン画面作るかも
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 使用プラグイン
+- react-dom
+- Reach UIあたり？
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## DBイメージ
+```
+gallery.data
++----+----------+----------+------------+--------+
+| ID | authorID |   url    |    date    | delflg |
++----+----------+----------+------------+--------+
+|  0 |        0 | http://~ | 2022/11/30 |      0 |
++----+----------+----------+------------+--------+
+|  1 |        1 | http://~ | 2022/11/30 |      0 |
++----+----------+----------+------------+--------+
 
-### `npm test`
+gallery.authors
++----------+-----------------------+
+| authorID |        author         |
++----------+-----------------------+
+|        0 | 志津子                |
++----------+-----------------------+
+|        1 | ムキムキドリルまさのり |
++----------+-----------------------+
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## フロントエンド環境構築
+### 環境構築
+- Install node if you haven't installed yet.
+- Change directory into project root on your terminal.
+- Execute `npm install` or `yarn install` on your terminal.
 
-### `npm run build`
+### 実行
+- Execute `yarn start` or `npm start` then automatically open [http://localhost:3000](http://localhost:3000).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
