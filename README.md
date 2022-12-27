@@ -25,7 +25,7 @@
 
 ### 使用プラグイン
 - react-router-dom
-- Reach UIあたり？
+- styled-component
 
 ## DBイメージ
 ```
