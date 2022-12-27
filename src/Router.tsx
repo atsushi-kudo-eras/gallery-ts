@@ -1,7 +1,9 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import App from "./Pages/App";
-import Admin from "./Pages/Admin";
+import Admin from "./Pages/Login";
+import Adtmp from "./Pages/Admin";
 import styled from "styled-components";
+import Data from "./data.json";
 
 function Router() {
   return (
@@ -12,6 +14,9 @@ function Router() {
         </Route>
         <Route path="/admin">
           <Admin />
+        </Route>
+        <Route path="/adtmp">
+          <Adtmp Data={Data} />
         </Route>
       </BrowserRouter>
     </Base>
