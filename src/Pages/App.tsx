@@ -1,20 +1,18 @@
-import "./App.css";
-import Data from "./data.json";
+import Data from "../data.json";
 import { useState } from "react";
+import styled from "styled-components";
 
 // import components
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import Authors from "./Components/Authors";
-import Flame from "./Components/Frame";
+import Header from "../Components/App/Header";
+import Footer from "../Components/App/Footer";
+import Authors from "../Components/App/Authors";
+import Flame from "../Components/App/Frame";
 
 // Root Component
 function App() {
-
   // 型定義
   interface frameData {
     url: string;
-    title: string;
     date: string;
     author: string;
   }
@@ -35,11 +33,11 @@ function App() {
     setAuthState(Data.authors);
   };
   const disableAllAuth = () => {
-    setAuthState(Data.authors.map(() => ''));
+    setAuthState(Data.authors.map(() => ""));
   };
 
   // Array that manages images to be displayed based on the state(Truthy/F) of each author.
-  const enabledItems = Data.img.filter((frameData: frameData) => {
+  const enabledItems = Data.res.filter((frameData: frameData) => {
     return (
       frameData.author === authState[0] ||
       frameData.author === authState[1] ||
@@ -56,7 +54,7 @@ function App() {
 
   // rendering
   return (
-    <div className="App">
+    <div>
       <Header Data={Data} />
       <Authors
         revAuthState={revAuthState}
@@ -65,12 +63,19 @@ function App() {
         disableAllAuth={disableAllAuth}
         Data={Data}
       />
-      <main>
+      <AppMain>
         <Flame enabledItems={enabledItems} />
-      </main>
+      </AppMain>
       <Footer Data={Data} />
     </div>
   );
 }
+
+const AppMain = styled.main`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #181a1b;
+`;
 
 export default App;

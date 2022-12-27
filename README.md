@@ -23,8 +23,8 @@
     - resで画面更新
   - ログイン画面作るかも
 
-## 使用プラグイン
-- react-dom
+### 使用プラグイン
+- react-router-dom
 - Reach UIあたり？
 
 ## DBイメージ
