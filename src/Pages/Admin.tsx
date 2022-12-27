@@ -12,7 +12,6 @@ function Admin(props: any) {
   const Form = styled.form`
     > :last-child {
       margin-top: 1.5rem;
-      margin-left: -5rem;
     }
   `;
   const Table = styled.table`
